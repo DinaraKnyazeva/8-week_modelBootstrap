@@ -13,46 +13,22 @@
       crossorigin="anonymous"
     />
     <title>Document</title>
-    <style>
-      .menu {
-        margin-right: 15%;
-      }
-      .title {
-        background-color: rgb(217, 217, 217);
-        border-radius: 8px;
-        padding-bottom: 5%;
-      }
-      .fon {
-        background-color: rgba(128, 128, 128, 0.44);
-        height: 4rem;
-      }
-      .footer {
-        margin-top: 10%;
-      }
-      .bd-placeholder-img {
-        font-size: 2.2rem;
-        color: rgb(77, 71, 71);
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
   </head>
   <body>
     <div class="root">
       <header class="p-3 bg-dark text-white">
         <div class="container">
-          <div class="d-flex flex-wrap align-items-center">
+          <div class="d-flex flex-wrap align-items-center header">
             <a href="#" class="nav-link px-2 text-white">Start Bootstrap</a>
-            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 mb-md-0 menu">
-              <li><a href="#" class="nav-link px-2 text-white">Home</a></li>
+            <ul class="nav justify-content-end">
+              <li>
+                <a
+                  href="#"
+                  class="nav-link active px-2 text-white"
+                  aria-current="page"
+                  >Home</a
+                >
+              </li>
               <li>
                 <a href="#" class="nav-link px-2 text-secondary">About</a>
               </li>
@@ -220,16 +196,15 @@
           </div>
         </main>
       </div>
-      
-        <footer class="d-flex py-5 bg-dark text-white footer">
+
+      <footer class="d-flex py-5 bg-dark text-white footer">
         <div class="container">
-          <p class="col  text-center text-muted">
+          <p class="col text-center text-muted">
             Copyright &copy; Your Website 2019
           </p>
         </div>
       </footer>
-      
-      
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"

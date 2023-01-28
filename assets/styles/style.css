@@ -1,0 +1,29 @@
+.header {
+  justify-content: space-between;
+}
+.title {
+  background-color: rgb(217, 217, 217);
+  border-radius: 8px;
+  padding-bottom: 5%;
+}
+.fon {
+  background-color: rgba(128, 128, 128, 0.44);
+  height: 4rem;
+}
+.footer {
+  margin-top: 10%;
+}
+.bd-placeholder-img {
+  font-size: 2.2rem;
+  color: rgb(77, 71, 71);
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
